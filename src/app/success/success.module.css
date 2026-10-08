@@ -1,0 +1,72 @@
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background: #edf4ee;
+}
+
+.card {
+  width: min(720px, 100%);
+  padding: 42px;
+  border: 1px solid #1f382b1f;
+  background: #fffdf8;
+  box-shadow: 0 20px 70px #1f382b18;
+}
+
+.kicker {
+  margin: 0 0 12px;
+  color: #386b54;
+  font-weight: 700;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.summary {
+  display: grid;
+  gap: 12px;
+  margin: 28px 0;
+}
+
+.summary div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #1f382b1a;
+  padding-bottom: 10px;
+}
+
+.summary dt {
+  color: #627268;
+}
+
+.summary dd {
+  margin: 0;
+  color: #17231c;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.actions a {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #1f382b;
+  padding: 0 16px;
+  color: #fff;
+  background: #1f382b;
+  text-decoration: none;
+}
+
+.actions a + a {
+  color: #1f382b;
+  background: transparent;
+}

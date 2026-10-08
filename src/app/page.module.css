@@ -1,0 +1,62 @@
+.shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background: #f4f7f2;
+}
+
+.hero {
+  width: min(920px, 100%);
+  padding: 56px;
+  border: 1px solid #1e2d241a;
+  background: #fffdf8;
+  box-shadow: 0 24px 80px #2331281a;
+}
+
+.kicker {
+  margin: 0 0 16px;
+  color: #386b54;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #18221c;
+  font-size: clamp(34px, 6vw, 64px);
+  line-height: 1.04;
+}
+
+.summary {
+  max-width: 680px;
+  margin: 24px 0 0;
+  color: #4b5c51;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.actions a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  padding: 0 18px;
+  border: 1px solid #1f382b;
+  color: #fff;
+  background: #1f382b;
+  text-decoration: none;
+}
+
+.actions a + a {
+  color: #1f382b;
+  background: transparent;
+}

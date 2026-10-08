@@ -1,0 +1,91 @@
+.page {
+  min-height: 100vh;
+  padding: 36px;
+  background: #f4f7f2;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+  margin: 0 auto 24px;
+  width: min(1120px, 100%);
+}
+
+.kicker {
+  margin: 0 0 8px;
+  color: #386b54;
+  font-weight: 700;
+}
+
+.toolbar h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actions a,
+.actions button {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #1f382b;
+  padding: 0 14px;
+  color: #1f382b;
+  background: transparent;
+  text-decoration: none;
+}
+
+.actions button {
+  color: #fff;
+  background: #1f382b;
+}
+
+.tableWrap {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  overflow-x: auto;
+  border: 1px solid #1f382b1f;
+  background: #fffdf8;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #1f382b14;
+  padding: 14px 16px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table th {
+  color: #4b5c51;
+  background: #eef4ec;
+  font-size: 13px;
+}
+
+.empty {
+  margin: 0;
+  padding: 36px;
+  color: #596b60;
+}
+
+@media (max-width: 720px) {
+  .page {
+    padding: 20px;
+  }
+
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
